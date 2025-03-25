@@ -13,8 +13,8 @@
 ### 1. **Clone the Repo**
 
 ```sh
-git clone https://github.com/your-username/firebase-demo.git
-cd firebase-demo
+git clone https://github.com/psuedonymous/codher-firebase-demo
+cd codher-firebase-demo
 ```
 
 ### 2. **Create `.env` File**
