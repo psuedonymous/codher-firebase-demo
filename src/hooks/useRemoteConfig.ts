@@ -13,7 +13,6 @@ export const useFeatureFlag = (key: string): boolean => {
 
   useEffect(() => {
     fetchAndActivate(remoteConfig).then(() => {
-      console.log(getValue(remoteConfig, key));
       setFeatureEnabled(getValue(remoteConfig, key).asBoolean());
     });
   }, [key]);
